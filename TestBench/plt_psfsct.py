@@ -7,8 +7,6 @@ import numpy as np
 import uproot
 
 if __name__=="__main__" :
-
-
     
     imgz = 300
     
