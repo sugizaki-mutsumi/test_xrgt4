@@ -26,7 +26,7 @@ Example of simple MPO geometry
  Idle> exit
 
  <Batch mode>
- $ ../bin/ep_mpo1 run_gpsGamma.mac
+ $ ../bin/ex_mpo1 run_gpsGamma.mac
 
  <Plot PSF>
  $ python -i plt_psfsct.py
