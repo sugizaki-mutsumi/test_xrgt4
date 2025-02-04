@@ -1,0 +1,33 @@
+Example of simple MPO geometry
+
+* Environment
+ Geant4 ver 11.3
+ ROOT (v6.32.02)
+
+ X-ray reflection physics codes are based on XRTG4.
+ https://xraytracer.com
+ Source codes are in source/src.
+ These codes are partly modified for G4 11.3 and Lobster-eye MPO.
+
+* How to build
+ $ mkdir build
+ $ cd build
+ $ cmake ../source
+ $ make
+ $ make install
+
+* How to run
+ <Test with GUI> 
+ $ cd TestBench
+ $ ../bin/ex_mpo1
+ ...
+ Idle> /run/beamOn 10
+ ...
+ Idle> exit
+
+ <Batch mode>
+ $ ../bin/ep_mpo1 run_gpsGamma.mac
+
+ <Plot PSF>
+ $ python -i plt_psfsct.py
+
