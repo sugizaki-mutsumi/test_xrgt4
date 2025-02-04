@@ -1,0 +1,22 @@
+/gps/particle gamma
+
+/gps/ene/type Mono
+/gps/ene/mono 1 keV
+
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/centre 0 0 1.0 m
+
+#/gps/pos/halfx 20 mm
+#/gps/pos/halfy 20 mm
+/gps/pos/halfx 2 mm
+/gps/pos/halfy 2 mm
+
+/gps/direction 0.0 0.0 -1.0
+
+#/analysis/setFileName gamma1kev_1e5.root
+#/run/beamOn 100000
+/analysis/setFileName gamma1kev_1e4.root
+/run/beamOn 10000
+
+
