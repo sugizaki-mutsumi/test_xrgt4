@@ -14,9 +14,9 @@
 
 /gps/direction 0.0 0.0 -1.0
 
-#/analysis/setFileName gamma1kev_1e5.root
+#/analysis/setFileName gamma1kev_n1e5.root
 #/run/beamOn 100000
-/analysis/setFileName gamma1kev_1e4.root
+/analysis/setFileName gamma1kev_n1e4.root
 /run/beamOn 10000
 
 
