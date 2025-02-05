@@ -45,8 +45,11 @@ axs[0].set_xlim(-2.5,2.5)
 axs[0].set_ylim(-2.5,2.5)
 axs[1].set_xlim(-0.1,0.1)
 axs[1].set_ylim(-0.1,0.1)
-axs[0].set_aspect('equal')
-axs[1].set_aspect('equal')
+
+for ax in axs :
+    ax.set_aspect('equal')
+    ax.set_xlabel("X (mm)")
+    ax.set_ylabel("Y (mm)")
 
 nhits_list = [3,5,7,9,11,13]
 color_list = ['k', 'r', 'g', 'b', 'm']
