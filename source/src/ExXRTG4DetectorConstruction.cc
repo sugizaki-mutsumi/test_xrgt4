@@ -143,6 +143,9 @@ G4VPhysicalVolume* ExXRTG4DetectorConstruction::Construct() {
   const G4int nxpole = 154;  // 4.004 mm
   const G4int nypole = 154;  // 4.004 mm
 
+  //const G4int nxpole = 154*5;  // visiuallizetion limit
+  //const G4int nypole = 154*5;  
+
   
   for (G4int iy=0; iy<=nypole; iy++){
     G4double yangle = poreAngleStep*(iy-nypole/2);

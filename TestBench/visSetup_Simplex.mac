@@ -22,8 +22,9 @@
 #/vis/viewer/set/style surface               # Volume style (surface/wireframe)
 /vis/viewer/set/auxiliaryEdge true            # Show edges of curved surfaces
 /vis/viewer/set/lineSegmentsPerCircle 100     # Make circles smoothed 
-#/vis/viewer/set/viewpointThetaPhi 0 0     
-/vis/viewer/set/viewpointThetaPhi -120 150     # Nice camera angle
-/vis/viewer/zoom 2
+/vis/viewer/set/viewpointThetaPhi 0 0     
+#/vis/viewer/set/viewpointThetaPhi -120 150     # Nice camera angle
+
+/vis/viewer/zoom 10
 
 
