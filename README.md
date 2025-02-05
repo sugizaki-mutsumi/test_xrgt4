@@ -41,5 +41,8 @@
 ### Plot PSF
 ```
  $ python -i plt_psfsct.py
+ or 
+ $ jupyter-lab plt_psfsct.ipynb
+
 ```
 
